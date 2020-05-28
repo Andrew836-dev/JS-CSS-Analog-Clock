@@ -1,0 +1,32 @@
+.clock-container {
+    position: relative;
+    box-sizing: border-box;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}
+.hour-hand, .minute-hand, .second-hand {
+    height: 1px;
+    width: 1px;
+}
+
+.clock-hand {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    height: 4px;
+    width: 60px;
+    background-color: black;
+}
+.hour {
+    width: 40px;
+}
+.second {
+    height: 2px;
+    width: 70px;
+    background-color: red;
+}
